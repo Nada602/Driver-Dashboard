@@ -1,11 +1,8 @@
-import Sidebar from "./comman/sidebar/Sidebar"
-import { useState } from 'react'
-
 import { Routes,Route } from "react-router-dom"
 import Drivers from "./pages/Drivers/Drivers"
 import Roads from "./pages/Roads/Roads"
 import ErorrPage from "./pages/ErorrPage/ErorrPage"
-import Index from "."
+import Index from "./Index"
 import Home from "./pages/Home/Home"
 function App() {
   

@@ -5,7 +5,6 @@ import ErorrPage from "./pages/ErorrPage/ErorrPage"
 import Index from "./Index"
 import Home from "./pages/Home/Home"
 function App() {
-  
 
   return (
     <>

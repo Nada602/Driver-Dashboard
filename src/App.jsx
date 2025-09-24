@@ -1,4 +1,4 @@
-import Sidebar from "./comman/Header/sidebar/Sidebar"
+import Sidebar from "./comman/sidebar/Sidebar"
 import { useState } from 'react'
 
 import { Routes,Route } from "react-router-dom"

@@ -1,6 +1,6 @@
 import Header from "./comman/Header/Header";
 import { Outlet } from "react-router-dom";
-import Sidebar from "./comman/Header/sidebar/Sidebar";
+import Sidebar from "./comman/sidebar/Sidebar";
 function Index() {
   return (
     <>
@@ -8,7 +8,7 @@ function Index() {
         <Sidebar />
         <div style={{ flex: 1 }}>
           <Header />
-          <Outlet /> {/* هنا الصفحات هتتبدل */}
+          <Outlet /> 
         </div>
       </div>
     </>

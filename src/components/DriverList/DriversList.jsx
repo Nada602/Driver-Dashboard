@@ -43,8 +43,9 @@ function DriversList() {
         {/* all drivers */}
         <div className="  rounded d-flex flex-wrap m-auto ">
           {drivers.map((d) => (
+            
             <div
-              className="col-lg-3 col-md-5 col-sm-12 p-4 bg-light m-4 rounded border border-light d-flex flex-column"
+              className="col-lg-3 col-md-5 col-sm-12 p-4 m-auto bg-light  rounded border border-light d-flex flex-column  my-2 mx-3 "
               key={d.id}
               style={{ marginBottom: "10px" }}
             >

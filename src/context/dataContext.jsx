@@ -18,7 +18,24 @@ export const DriverData = [
       end: "18:00",
       timezone: "EST",
     },
-  
+  },
+  {
+    id: 6,
+    name: "Nada Essam",
+    email: "NadaEssam@fleetmanager.com",
+    phone: "+1 (555) 123-4567",
+    avatar:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+    available: false,
+    status: "break",
+    rating: 4.8,
+    totalTrips: 156,
+    completedTrips: 148,
+    workingHours: {
+      start: "04:00",
+      end: "01:00",
+      timezone: "EST",
+    },
   },
   {
     id: 2,
